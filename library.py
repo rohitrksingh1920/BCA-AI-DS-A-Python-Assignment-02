@@ -10,9 +10,9 @@ issued_books = {}
 
 def add_book():
     print("\n--- Add New Book ---")
-    book_id = input("Enter Book ID: ").strip()
-    title = input("Enter Book Title: ").strip()
-    author = input("Enter Author Name: ").strip()
+    book_id = input("Enter Book ID: ")
+    title = input("Enter Book Title: ")
+    author = input("Enter Author Name: ")
     copies = int(input("Enter Number of Copies: "))
 
     library[book_id] = {
